@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configurações
-const USERNAME = 'lastore.brasill';
+const USERNAME = 'lastore.brasil';
 const PASSWORD = 'Ichat@2024*';
 const DESTINO = '4rthuzinho'; // @ do perfil (sem o "@")
 const MENSAGEM = 'Fala mano! Mensagem via bot Instagram 🤖';
