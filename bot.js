@@ -3,9 +3,9 @@ const fs = require('fs');
 const path = require('path');
 
 // Configurações
-const USERNAME = 'seu_usuario';
-const PASSWORD = 'sua_senha';
-const DESTINO = 'usuario_destino'; // @ do perfil (sem o "@")
+const USERNAME = 'lastore.brasill';
+const PASSWORD = 'Ichat@2024*';
+const DESTINO = '4rthuzinho'; // @ do perfil (sem o "@")
 const MENSAGEM = 'Fala mano! Mensagem via bot Instagram 🤖';
 
 const ig = new IgApiClient();
