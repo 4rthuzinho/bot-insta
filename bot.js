@@ -22,6 +22,9 @@ ig.state.generateDevice(USERNAME);
       console.log('✅ Sessão restaurada com sucesso!');
     } else {
       // Faz login e salva estado
+      console.log('🧪 USERNAME:', USERNAME);
+console.log('🧪 PASSWORD length:', PASSWORD.length);
+
       await ig.account.login(USERNAME, PASSWORD);
       const authState = await ig.state.serialize();
       fs.writeFileSync(statePath, JSON.stringify(authState));
